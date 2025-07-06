@@ -123,13 +123,13 @@ export default function HomePage() {
         <div className="relative z-10 mx-auto flex max-w-[980px] flex-col items-center gap-4 text-center animate-fade-in">
           <div className="float-animation">
             <h1 className="text-3xl font-bold leading-tight tracking-tighter md:text-5xl lg:text-6xl lg:leading-[1.1]">
-              <span className="gradient-text">Homeserver & PC`s</span>
+              <span className="gradient-text">Homeserver & PC`s </span>
               <br className="hidden sm:inline" />
               <span className="text-primary">von till-bx</span>
             </h1>
           </div>
           <p className="max-w-[750px] text-lg text-muted-foreground sm:text-xl leading-relaxed">
-            Professionelle Einrichtung und Optimierung von Homeservern, Homelabs und PC-Systemen. Von der Planung bis
+            Einrichtung und Optimierung von Homeservern, Homelabs und PC-Systemen. Von der Planung bis
             zur Wartung - alles aus einer Hand.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
@@ -562,7 +562,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <p className="font-medium">Telefon</p>
-                    <p className="text-sm text-muted-foreground">+49 (0) 123 456789</p>
+                    <p className="text-sm text-muted-foreground">+49 (0) 176 40499649</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
@@ -571,7 +571,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <p className="font-medium">Standort</p>
-                    <p className="text-sm text-muted-foreground">Deutschland</p>
+                    <p className="text-sm text-muted-foreground">Deutschland, 31008 Elze</p>
                   </div>
                 </div>
               </CardContent>
@@ -583,7 +583,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Ich antworte in der Regel innerhalb von 24 Stunden auf Anfragen. Bei dringenden Problemen können Sie
+                  Ich antworte in der Regel innerhalb von 1-2 Stunden auf Anfragen. Bei dringenden Problemen können Sie
                   mich auch telefonisch erreichen.
                 </p>
               </CardContent>
@@ -622,13 +622,13 @@ export default function HomePage() {
                   <Github className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
                 </Link>
                 <Link
-                  href="mailto:kontakt@till-bx.de"
+                  href="mailto:till.baxmann@gmx.de"
                   className="p-3 rounded-lg glass hover:bg-muted/50 transition-all duration-300 group"
                 >
                   <Mail className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
                 </Link>
                 <Link
-                  href="tel:+4912345678"
+                  href="tel:+4917640499649"
                   className="p-3 rounded-lg glass hover:bg-muted/50 transition-all duration-300 group"
                 >
                   <Phone className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
@@ -697,7 +697,7 @@ export default function HomePage() {
           {/* Bottom section */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-4 text-sm text-muted-foreground">
-              <span>© 2024 till-bx</span>
+              <span>© 2025 till-bx - Alle Rechte vorbehalten</span>
               <span className="hidden md:inline">•</span>
               <Link href="#" className="hover:text-primary transition-colors">
                 Datenschutz
