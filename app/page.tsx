@@ -123,7 +123,7 @@ export default function HomePage() {
         <div className="relative z-10 mx-auto flex max-w-[980px] flex-col items-center gap-4 text-center animate-fade-in">
           <div className="float-animation">
             <h1 className="text-3xl font-bold leading-tight tracking-tighter md:text-5xl lg:text-6xl lg:leading-[1.1]">
-              <span className="gradient-text">Homeserver & PC Solutions</span>
+              <span className="gradient-text">Homeserver & PC`s</span>
               <br className="hidden sm:inline" />
               <span className="text-primary">von till-bx</span>
             </h1>
