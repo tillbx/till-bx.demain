@@ -271,7 +271,6 @@ export default function HomePage() {
                   <Badge variant="secondary">Home Assistant</Badge>
                   <Badge variant="secondary">Grafana</Badge>
                   <Badge variant="secondary">Prometheus</Badge>
-                  <Badge variant="secondary">IoT</Badge>
                 </div>
               </div>
             </CardContent>
@@ -368,9 +367,9 @@ export default function HomePage() {
               <h2 className="text-3xl font-bold leading-tight tracking-tighter md:text-4xl">Wer bin ich?</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p className="text-base">
-                  Hallo! Ich bin Till und beschäftige mich seit über 8 Jahren intensiv mit Homeserver-Technologien,
+                  Hallo! Ich bin Till und beschäftige mich mittlerweile seit über 4 Jahren intensiv mit Homeserver-Technologien,
                   Netzwerk-Administration und PC-Hardware. Was als Hobby begann, ist mittlerweile zu meiner Leidenschaft
-                  und Expertise geworden.
+                  und Expertise geworden. Ich baue und Konfiguriere PCs für Freunde.
                 </p>
                 <p className="text-base">
                   Meine Erfahrung umfasst die Planung, Implementierung und Wartung von Homelab-Umgebungen verschiedener
@@ -444,7 +443,7 @@ export default function HomePage() {
 
             <AccordionItem value="item-3" className="border rounded-lg px-4">
               <AccordionTrigger className="text-left hover:no-underline">
-                Bieten Sie auch Support und Wartung an?
+                Bietest du auch Support und Wartung an?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
                 Ja, ich biete sowohl einmaligen Support als auch regelmäßige Wartungsverträge an. Dies umfasst
@@ -455,12 +454,11 @@ export default function HomePage() {
 
             <AccordionItem value="item-4" className="border rounded-lg px-4">
               <AccordionTrigger className="text-left hover:no-underline">
-                Welche Hardware empfehlen Sie für den Einstieg?
+                Berätst du auch vor Ort oder Remote?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Für Einsteiger empfehle ich oft Mini-PCs oder NUCs mit ausreichend RAM (mindestens 16GB) und
-                SSD-Speicher. Beliebte Optionen sind Intel NUCs, HP EliteDesk Mini oder selbstgebaute Systeme mit AMD
-                Ryzen APUs. Die Wahl hängt von Ihrem Budget, Stromverbrauch-Anforderungen und geplanten Services ab.
+                Ich berate sie gerne egal ob neuer Home Server, PC, Laptop, Spielekonsole etc.
+                Ich kann auch Upgrades an Laptops, PCs, Servern etc durchführen.
               </AccordionContent>
             </AccordionItem>
 
@@ -476,12 +474,11 @@ export default function HomePage() {
 
             <AccordionItem value="item-6" className="border rounded-lg px-4">
               <AccordionTrigger className="text-left hover:no-underline">
-                Arbeiten Sie auch remote oder nur vor Ort?
+                Vermietest du auch Software?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Ich arbeite sowohl remote als auch vor Ort, je nach Projektanforderungen. Viele Konfigurationsarbeiten
-                können remote durchgeführt werden, was Zeit und Kosten spart. Für die initiale Hardware-Installation und
-                komplexe Netzwerk-Setups komme ich gerne vor Ort. Der Arbeitsbereich umfasst primär Deutschland.
+                Ich vermiete auch für schmales Geld einzelne Systeme, oder Anwendungen. Das ist kann durchaus Sinnvoll sein
+                falls sie erstmal nur Ausprobieren wollen was alles so möglich ist.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -553,7 +550,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <p className="font-medium">E-Mail</p>
-                    <p className="text-sm text-muted-foreground">kontakt@till-bx.de</p>
+                    <p className="text-sm text-muted-foreground">till.baxmann@gmx.de</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
@@ -614,8 +611,7 @@ export default function HomePage() {
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed max-w-md">
-                Ihr Partner für professionelle Homeserver-Lösungen, PC-Optimierung und Netzwerk-Infrastruktur. Moderne
-                Technologie, zuverlässig umgesetzt.
+                Ihr Ansprechpartner für zuverlässige Homeserver, optimierte PCs und stabile Netzwerke – modern, klar, funktional.
               </p>
               <div className="flex space-x-4">
                 <Link href="#" className="p-3 rounded-lg glass hover:bg-muted/50 transition-all duration-300 group">
