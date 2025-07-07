@@ -134,7 +134,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <Button size="lg" asChild className="text-base px-8 pulse-glow">
-              <Link href="#projects">Projekte ansehen</Link>
+              <Link href="#projects">Das biete ich</Link>
             </Button>
             <Button variant="outline" size="lg" asChild className="text-base px-8 glass bg-transparent">
               <Link href="#contact">Kontakt aufnehmen</Link>
@@ -146,9 +146,9 @@ export default function HomePage() {
       {/* Projects Section */}
       <section id="projects" className="container space-y-8 py-12 md:py-16 lg:py-24">
         <div className="mx-auto flex max-w-[980px] flex-col items-center gap-4 text-center">
-          <h2 className="text-3xl font-bold leading-tight tracking-tighter md:text-4xl">Meine Projekte</h2>
+          <h2 className="text-3xl font-bold leading-tight tracking-tighter md:text-4xl">Das biete ich</h2>
           <p className="max-w-[600px] text-lg text-muted-foreground">
-            Eine Auswahl meiner realisierten Projekte im Bereich Homeserver und PC-Technik
+            Eine kurze und kleine Auswahl meiner Angebote im Bereich Homeserver und PC-Technik
           </p>
         </div>
 
@@ -171,8 +171,8 @@ export default function HomePage() {
             <CardContent className="flex-1">
               <div className="space-y-4">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Aufbau und Konfiguration von Homeservern für Privatpersonen und kleine Unternehmen. Inklusive
-                  Virtualisierung, Container-Management, Backup-Strategien und Remote-Zugriff.
+                  Aufbau und Konfiguration von Homeservern. Inklusive Virtualisierung, Container-Management, 
+                  Backup-Strategien, NAS-Systemen, Homepages, Datenbanken und Remote-Zugriff.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Proxmox</Badge>
@@ -202,7 +202,7 @@ export default function HomePage() {
             <CardContent className="flex-1">
               <div className="space-y-4">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Optimierung der Netzwerk-Performance, Einrichtung von VLANs, Firewall-Konfiguration und sichere
+                  Optimierung der Netzwerk-Performance, WLAN, Einrichtung von VLANs, Firewall-Konfiguration und sichere
                   VPN-Verbindungen für Remote-Arbeit und sicheren Zugriff.
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -233,7 +233,7 @@ export default function HomePage() {
             <CardContent className="flex-1">
               <div className="space-y-4">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Zusammenstellung und Optimierung von PC-Systemen für verschiedene Anwendungsbereiche. Von Gaming-Rigs
+                  Zusammenstellung und Optimierung von PC-Systemen für verschiedene Anwendungsbereiche. Von Gaming
                   bis hin zu professionellen Workstations.
                 </p>
                 <div className="flex flex-wrap gap-2">
