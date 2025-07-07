@@ -379,7 +379,7 @@ export default function HomePage() {
                 <p className="text-base">
                   Ob Sie einen einfachen Medienserver einrichten möchten oder eine komplexe Virtualisierungsumgebung
                   benötigen - ich helfe Ihnen dabei, die optimale Lösung für Ihre Anforderungen zu finden und
-                  umzusetzen.
+                  umzusetzen. (Das Bild Rechts ist KI Generiert zum Schutz meiner Identität)
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
